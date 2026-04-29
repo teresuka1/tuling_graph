@@ -1,0 +1,312 @@
+{
+  "title": "图灵知识图谱关系抽取结果",
+  "input_text_file": "Turing.txt",
+  "input_entity_file": "Turing_entities_disambiguated.json",
+  "output_time": "2026/4/29 10:18:42",
+  "summary": {
+    "sentence_count": 138,
+    "relation_count": 25
+  },
+  "relations": [
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "被誉为",
+      "object": "计算机科学",
+      "object_type": "概念",
+      "time": "1912年6月23日",
+      "evidence": [
+        "艾伦·麦席森·图灵，OBE，FRS（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林，1912年6月23日—1954年6月7日），英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，他被誉为计算机科学与人工智能之父"
+      ],
+      "extraction_rule": "称号关系"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "被誉为",
+      "object": "人工智能",
+      "object_type": "概念",
+      "time": "1912年6月23日",
+      "evidence": [
+        "艾伦·麦席森·图灵，OBE，FRS（英语：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻译成涂林或者杜林，1912年6月23日—1954年6月7日），英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，他被誉为计算机科学与人工智能之父"
+      ],
+      "extraction_rule": "称号关系"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "提出",
+      "object": "图灵机",
+      "object_type": "概念",
+      "time": null,
+      "evidence": [
+        "此外，图灵提出的著名的图灵机模型为现代计算机的逻辑工作方式奠定了基础"
+      ],
+      "extraction_rule": "概念提出"
+    },
+    {
+      "subject": "英国政府",
+      "subject_type": "机构",
+      "predicate": "迫害",
+      "object": "艾伦·麦席森·图灵",
+      "object_type": "人物",
+      "time": null,
+      "evidence": [
+        "图灵是男同性恋者，并因为其性倾向而遭到当时的英国政府迫害，职业生涯尽毁"
+      ],
+      "extraction_rule": "迫害关系"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "父亲是",
+      "object": "朱利斯·麦席森·图灵",
+      "object_type": "人物",
+      "time": null,
+      "evidence": [
+        "图灵的父亲朱利斯·麦席森·图灵（Julius Mathison Turing）是一名英属印度的公务员"
+      ],
+      "extraction_rule": "亲属关系-父亲"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "母亲是",
+      "object": "Ethel Sara Stoney",
+      "object_type": "人物",
+      "time": "1911年",
+      "evidence": [
+        "1911年，图灵的母亲Ethel Sara Stoney在英属印度怀了孕"
+      ],
+      "extraction_rule": "亲属关系-母亲"
+    },
+    {
+      "subject": "Ethel Sara Stoney",
+      "subject_type": "人物",
+      "predicate": "怀孕地点",
+      "object": "英属印度",
+      "object_type": "地点",
+      "time": "1911年",
+      "evidence": [
+        "1911年，图灵的母亲Ethel Sara Stoney在英属印度怀了孕"
+      ],
+      "extraction_rule": "地点关系-怀孕"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "就读于",
+      "object": "剑桥大学国王学院",
+      "object_type": "机构",
+      "time": "1931年",
+      "evidence": [
+        "1931年，图灵考入剑桥大学国王学院攻读本科，并获得了数学一等荣誉"
+      ],
+      "extraction_rule": "教育经历-考入"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "获得",
+      "object": "一等荣誉",
+      "object_type": "荣誉",
+      "time": "1931年",
+      "evidence": [
+        "1931年，图灵考入剑桥大学国王学院攻读本科，并获得了数学一等荣誉"
+      ],
+      "extraction_rule": "荣誉获得"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "获得",
+      "object": "简·伊丽莎·宝洁奖学金",
+      "object_type": "荣誉",
+      "time": "1936年9月",
+      "evidence": [
+        "1936年9月到1938年7月间，图灵大部分时间都在普林斯顿大学的教堂下学习，第二年被评选为简·伊丽莎·宝洁奖学金客座教授（Jane Eliza Procter Visiting Fellow）"
+      ],
+      "extraction_rule": "荣誉获得-被评选"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "获得",
+      "object": "博士学位",
+      "object_type": "荣誉",
+      "time": "1938年6月",
+      "evidence": [
+        "1938年6月，获普林斯顿数学系博士学位；他的论文基于序数的逻辑系统,介绍了序数逻辑的概念和相对计算的概念，其中图灵机增加了所谓的预言机，允许学者进一步研究图灵机无法解决的问题"
+      ],
+      "extraction_rule": "荣誉获得-获"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "任职于",
+      "object": "英国密码破译组织政府密码和密码学校",
+      "object_type": "机构",
+      "time": "1938年9月",
+      "evidence": [
+        "从1938年9月起，图灵在英国密码破译组织政府密码和密码学校(GC&CS)兼职工作"
+      ],
+      "extraction_rule": "任职关系-机构上下文"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "任职于",
+      "object": "GC&CS",
+      "object_type": "机构",
+      "time": "1938年9月",
+      "evidence": [
+        "从1938年9月起，图灵在英国密码破译组织政府密码和密码学校(GC&CS)兼职工作"
+      ],
+      "extraction_rule": "任职关系-机构上下文"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "任职于",
+      "object": "英国皇家海军",
+      "object_type": "机构",
+      "time": "1939年",
+      "evidence": [
+        "1939年图灵被英国皇家海军招聘，并在英国军情六处监督下从事对德国机密军事密码的破译工作"
+      ],
+      "extraction_rule": "任职关系-机构上下文"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "任职于",
+      "object": "英国军情六处",
+      "object_type": "机构",
+      "time": "1939年",
+      "evidence": [
+        "1939年图灵被英国皇家海军招聘，并在英国军情六处监督下从事对德国机密军事密码的破译工作"
+      ],
+      "extraction_rule": "任职关系-机构上下文"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "合作对象",
+      "object": "I·J·古德",
+      "object_type": "人物",
+      "time": null,
+      "evidence": [
+        "根据历史学家Ronald Lewin的说法，与图灵一起工作的密码分析家I·J·古德谈到他的同事时说："
+      ],
+      "extraction_rule": "合作关系-共同工作"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "任职于",
+      "object": "布莱切利庄园",
+      "object_type": "机构",
+      "time": null,
+      "evidence": [
+        "在布莱奇利庄园工作期间，图灵是也一位才华横溢的长跑运动员，当需要开会时，他偶尔会跑 40 英里（64 公里）到伦敦，他有能力达到世界级的马拉松标准"
+      ],
+      "extraction_rule": "任职关系-机构上下文"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "任职于",
+      "object": "国家物理实验室",
+      "object_type": "机构",
+      "time": "1945年",
+      "evidence": [
+        "1945年到1948年，图灵在国家物理实验室负责自动计算引擎（ACE）的研究工作"
+      ],
+      "extraction_rule": "任职关系-机构上下文"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "研究",
+      "object": "自动计算引擎",
+      "object_type": "概念",
+      "time": "1945年",
+      "evidence": [
+        "1945年到1948年，图灵在国家物理实验室负责自动计算引擎（ACE）的研究工作"
+      ],
+      "extraction_rule": "研究关系-负责"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "研究",
+      "object": "ACE",
+      "object_type": "概念",
+      "time": "1945年",
+      "evidence": [
+        "1945年到1948年，图灵在国家物理实验室负责自动计算引擎（ACE）的研究工作"
+      ],
+      "extraction_rule": "研究关系-负责"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "提出",
+      "object": "图灵测试",
+      "object_type": "概念",
+      "time": null,
+      "evidence": [
+        "图灵在对人工智能的研究中，提出了一个叫做图灵测试的实验，尝试定出一个决定机器是否有感觉的标准"
+      ],
+      "extraction_rule": "概念提出"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "提出",
+      "object": "人工智能",
+      "object_type": "概念",
+      "time": null,
+      "evidence": [
+        "图灵在对人工智能的研究中，提出了一个叫做图灵测试的实验，尝试定出一个决定机器是否有感觉的标准"
+      ],
+      "extraction_rule": "概念提出"
+    },
+    {
+      "subject": "艾伦·麦席森·图灵",
+      "subject_type": "人物",
+      "predicate": "母亲是",
+      "object": "Ethel Sara Stoney",
+      "object_type": "人物",
+      "time": null,
+      "evidence": [
+        "但是他的母亲Ethel Sara Stoney极力争辩他的死是意外，因为图灵工作室有很多化学品，而他不小心让苹果沾上氰化物溶液"
+      ],
+      "extraction_rule": "亲属关系-母亲"
+    },
+    {
+      "subject": "戈登·布朗",
+      "subject_type": "人物",
+      "predicate": "公开道歉对象",
+      "object": "艾伦·麦席森·图灵",
+      "object_type": "人物",
+      "time": "2009年9月10日",
+      "evidence": [
+        "在2009年9月10日，一份超过3万人的请愿签名，使英国首相戈登·布朗在《每日电讯报》撰文，因为英国政府当年以同性恋相关罪名起诉图灵并定罪，让他自杀身亡，正式向艾伦·图灵公开道歉"
+      ],
+      "extraction_rule": "道歉关系"
+    },
+    {
+      "subject": "伊丽莎白二世",
+      "subject_type": "人物",
+      "predicate": "赦免",
+      "object": "艾伦·麦席森·图灵",
+      "object_type": "人物",
+      "time": "2013年12月24日",
+      "evidence": [
+        "2013年12月24日，英国司法部宣布英国女王伊丽莎白二世赦免1952年因同性恋行为被定罪的艾伦·图灵，不过有抗议者指出应将此赦免令范围扩大到所有和图灵同时代且受到同样待遇的同性恋者"
+      ],
+      "extraction_rule": "赦免关系"
+    }
+  ]
+}

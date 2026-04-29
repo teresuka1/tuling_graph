@@ -1,0 +1,1755 @@
+{
+  "title": "图灵知识图谱实体消歧结果",
+  "based_on": "Turing_entities.json",
+  "output_time": "2026/4/14 21:16:55",
+  "summary": {
+    "raw_entity_count": 133,
+    "disambiguated_entity_count": 109,
+    "dropped_entity_count": 3
+  },
+  "categories": {
+    "人物": [
+      {
+        "canonical_entity": "艾伦·麦席森·图灵",
+        "aliases": [
+          "阿兰·图灵",
+          "艾伦·麦席森·图灵",
+          "图灵",
+          "又译阿兰·图灵",
+          "Alan Mathison Turing"
+        ],
+        "count_estimate": 79,
+        "alias_count_sum": 83,
+        "sources": [
+          "人物词表",
+          "首句主体",
+          "英文别名",
+          "英文人名模式",
+          "中文别名",
+          "中译外文人名"
+        ],
+        "disambiguation": [
+          "别名合并",
+          "直接保留",
+          "规则清洗"
+        ],
+        "confidence": "high"
+      },
+      {
+        "canonical_entity": "理查德",
+        "aliases": [
+          "理查德"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "维特根斯坦",
+        "aliases": [
+          "维特根斯坦"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "Ethel Sara Stoney",
+        "aliases": [
+          "Ethel Sara Stoney"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "人物词表",
+          "人物上下文",
+          "英文人名模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "阿尔伯特·爱因斯坦",
+        "aliases": [
+          "阿尔伯特·爱因斯坦"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "阿隆佐·邱奇",
+        "aliases": [
+          "阿隆佐·邱奇"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "彼得希尔顿",
+        "aliases": [
+          "彼得希尔顿"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "第利温·诺克斯",
+        "aliases": [
+          "第利温·诺克斯",
+          "第利温·诺克斯一起专注于",
+          "密码破译员第利温·诺克斯一起专注于"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 3,
+        "sources": [
+          "人物词表",
+          "人物上下文",
+          "中译外文人名"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "规则清洗"
+        ],
+        "confidence": "high"
+      },
+      {
+        "canonical_entity": "冯·诺依曼",
+        "aliases": [
+          "冯·诺依曼"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "戈登·布朗",
+        "aliases": [
+          "戈登·布朗"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "哈里·欣斯利",
+        "aliases": [
+          "哈里·欣斯利",
+          "哈里·欣斯利估计",
+          "战争历史学家哈里·欣斯利估计"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 3,
+        "sources": [
+          "人物词表",
+          "人物上下文",
+          "中译外文人名"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "规则清洗"
+        ],
+        "confidence": "high"
+      },
+      {
+        "canonical_entity": "简·伊丽莎·宝洁",
+        "aliases": [
+          "简·伊丽莎·宝洁"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "麦克纳利",
+        "aliases": [
+          "麦克纳利"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "乔治六世",
+        "aliases": [
+          "乔治六世"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "托马斯·理查兹",
+        "aliases": [
+          "国银牌得主托马斯·理查兹",
+          "汤姆·理查兹",
+          "托马斯·理查兹",
+          "运会银牌得主汤姆·理查兹",
+          "Thomas Richards"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 5,
+        "sources": [
+          "人物词表",
+          "人物上下文",
+          "英文人名模式",
+          "中译外文人名"
+        ],
+        "disambiguation": [
+          "规则清洗",
+          "别名合并",
+          "直接保留"
+        ],
+        "confidence": "high"
+      },
+      {
+        "canonical_entity": "亚尔·瓦尔德马·林德伯格",
+        "aliases": [
+          "亚尔·瓦尔德马·林德伯格"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "伊丽莎白二世",
+        "aliases": [
+          "伊丽莎白二世",
+          "伊丽莎白二世赦免"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 2,
+        "sources": [
+          "人物词表",
+          "人物上下文"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "规则清洗"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "战时密码破译员",
+        "aliases": [
+          "和战时密码破译员",
+          "战时密码破译员"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物上下文"
+        ],
+        "disambiguation": [
+          "规则清洗"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "朱利斯·麦席森·图灵",
+        "aliases": [
+          "朱利斯·麦席森·图灵",
+          "Julius Mathison Turing"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 2,
+        "sources": [
+          "人物词表",
+          "人物上下文",
+          "英文人名模式"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "别名合并"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "Asa Briggs",
+        "aliases": [
+          "Asa Briggs"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表",
+          "英文人名模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "I·J·古德",
+        "aliases": [
+          "I·J·古德"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "Ronald Lewin",
+        "aliases": [
+          "Ronald Lewin"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "人物词表",
+          "人物上下文",
+          "英文人名模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "机构": [
+      {
+        "canonical_entity": "布莱切利庄园",
+        "aliases": [
+          "布莱奇利庄园",
+          "布莱切利庄园"
+        ],
+        "count_estimate": 4,
+        "alias_count_sum": 5,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "别名合并"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "GC&CS",
+        "aliases": [
+          "GC&CS"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 3,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "GCHQ",
+        "aliases": [
+          "GCHQ"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 3,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "剑桥大学国王学院",
+        "aliases": [
+          "剑桥大学国王学院",
+          "图灵考入剑桥大学国王学院"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 3,
+        "sources": [
+          "机构词表",
+          "机构后缀模式"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "规则清洗"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "波兰密码局",
+        "aliases": [
+          "波兰密码局"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构后缀模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "国家物理实验室",
+        "aliases": [
+          "国家物理实验室"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "洛斯阿拉莫斯国家实验室",
+        "aliases": [
+          "洛斯阿拉莫斯国家实验室"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "马尔伯勒学院",
+        "aliases": [
+          "马尔伯勒学院",
+          "随后马尔伯勒学院"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构后缀模式"
+        ],
+        "disambiguation": [
+          "规则清洗"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "曼彻斯特大学计算机实验室",
+        "aliases": [
+          "曼彻斯特大学计算机实验室",
+          "他成为曼彻斯特大学计算机实验室"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 2,
+        "sources": [
+          "机构词表",
+          "机构后缀模式"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "规则清洗"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "普林斯顿大学",
+        "aliases": [
+          "普林斯顿大学"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "普林斯顿数学系",
+        "aliases": [
+          "获普林斯顿数学系",
+          "普林斯顿数学系"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构后缀模式"
+        ],
+        "disambiguation": [
+          "规则清洗"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "沃尔顿竞技俱乐部",
+        "aliases": [
+          "他是沃尔顿竞技俱乐部",
+          "沃尔顿竞技俱乐部"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 2,
+        "sources": [
+          "机构词表",
+          "机构后缀模式"
+        ],
+        "disambiguation": [
+          "规则清洗",
+          "直接保留"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "英国国家档案馆",
+        "aliases": [
+          "英国国家档案馆"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英国皇家海军",
+        "aliases": [
+          "英国皇家海军"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英国军情六处",
+        "aliases": [
+          "英国军情六处"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英国密码破译组织政府密码和密码学校",
+        "aliases": [
+          "英国密码破译组织政府密码和密码学校"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英国上议院",
+        "aliases": [
+          "英国上议院"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英国首相府邸",
+        "aliases": [
+          "英国首相府邸"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英国司法部",
+        "aliases": [
+          "英国司法部"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "Hut 8",
+        "aliases": [
+          "Hut 8"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "机构词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "地点": [
+      {
+        "canonical_entity": "英国",
+        "aliases": [
+          "英国"
+        ],
+        "count_estimate": 20,
+        "alias_count_sum": 20,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "印度",
+        "aliases": [
+          "印度"
+        ],
+        "count_estimate": 4,
+        "alias_count_sum": 4,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "剑桥",
+        "aliases": [
+          "剑桥"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 3,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "伦敦",
+        "aliases": [
+          "伦敦"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "普林斯顿",
+        "aliases": [
+          "普林斯顿"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英伦",
+        "aliases": [
+          "英伦"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "英属印度",
+        "aliases": [
+          "英属印度"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "大西洋",
+        "aliases": [
+          "大西洋"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "东柴郡威姆斯洛",
+        "aliases": [
+          "东柴郡威姆斯洛"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "多塞特郡",
+        "aliases": [
+          "多塞特郡"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "法国",
+        "aliases": [
+          "法国"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "华沙",
+        "aliases": [
+          "华沙"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "吉尔福德",
+        "aliases": [
+          "吉尔福德"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "南安普顿",
+        "aliases": [
+          "南安普顿"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "帕丁顿",
+        "aliases": [
+          "帕丁顿"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "新墨西哥州洛斯阿拉莫斯",
+        "aliases": [
+          "新墨西哥州洛斯阿拉莫斯"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "地点词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "作品": [
+      {
+        "canonical_entity": "计算机器和智能",
+        "aliases": [
+          "计算机器和智能"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "书名号作品"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "解码纳粹秘密",
+        "aliases": [
+          "解码纳粹秘密",
+          "Nova PBS纪录片《解码纳粹秘密》"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 2,
+        "sources": [
+          "书名号作品",
+          "作品词表"
+        ],
+        "disambiguation": [
+          "直接保留",
+          "别名合并"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "论可计算数及其在判定问题上的应用",
+        "aliases": [
+          "论可计算数及其在判定问题上的应用"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "书名号作品"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "形态发生的化学基础",
+        "aliases": [
+          "形态发生的化学基础"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "书名号作品"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "概念": [
+      {
+        "canonical_entity": "图灵机",
+        "aliases": [
+          "图灵机"
+        ],
+        "count_estimate": 8,
+        "alias_count_sum": 8,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "恩尼格玛密码机",
+        "aliases": [
+          "恩尼格玛密码机"
+        ],
+        "count_estimate": 6,
+        "alias_count_sum": 6,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "图灵测试",
+        "aliases": [
+          "图灵测试"
+        ],
+        "count_estimate": 4,
+        "alias_count_sum": 4,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "人工智能",
+        "aliases": [
+          "人工智能"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 3,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "计算机科学",
+        "aliases": [
+          "计算机科学"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "判定问题",
+        "aliases": [
+          "判定问题"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "炸弹",
+        "aliases": [
+          "炸弹"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "反应-扩散公式",
+        "aliases": [
+          "反应-扩散公式"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "斐波那契叶序列",
+        "aliases": [
+          "斐波那契叶序列"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "曼彻斯特一号",
+        "aliases": [
+          "曼彻斯特一号"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "停机问题",
+        "aliases": [
+          "停机问题"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "相对计算",
+        "aliases": [
+          "相对计算"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "形态发生",
+        "aliases": [
+          "形态发生"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "序数逻辑",
+        "aliases": [
+          "序数逻辑"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "预言机",
+        "aliases": [
+          "预言机"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "中心极限定理",
+        "aliases": [
+          "中心极限定理"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "自动计算引擎",
+        "aliases": [
+          "自动计算引擎"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "ACE",
+        "aliases": [
+          "ACE"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "Bombe",
+        "aliases": [
+          "Bombe"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "λ演算",
+        "aliases": [
+          "λ演算"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "概念词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "事件": [
+      {
+        "canonical_entity": "第二次世界大战",
+        "aliases": [
+          "第二次世界大战",
+          "二次世界大战"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 5,
+        "sources": [
+          "事件词表",
+          "事件后缀模式"
+        ],
+        "disambiguation": [
+          "别名合并",
+          "直接保留"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "2万多人签名请愿",
+        "aliases": [
+          "2万多人签名请愿",
+          "有2万多人签名请愿"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "事件后缀模式"
+        ],
+        "disambiguation": [
+          "规则清洗"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "奥林匹克运动会",
+        "aliases": [
+          "奥林匹克运动会"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "事件词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "大西洋战役",
+        "aliases": [
+          "大西洋战役"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "事件词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "图灵法案",
+        "aliases": [
+          "艾伦·图灵法案",
+          "图灵法案"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 2,
+        "sources": [
+          "事件词表",
+          "事件后缀模式"
+        ],
+        "disambiguation": [
+          "别名合并",
+          "直接保留"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "canonical_entity": "越野赛跑",
+        "aliases": [
+          "越野赛跑"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "事件词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "时间": [
+      {
+        "canonical_entity": "1938年",
+        "aliases": [
+          "1938年"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 3,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "1939年",
+        "aliases": [
+          "1939年"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 3,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "2012年",
+        "aliases": [
+          "2012年"
+        ],
+        "count_estimate": 3,
+        "alias_count_sum": 3,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "二次世界大战期间",
+        "aliases": [
+          "二次世界大战期间"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "时间词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "1912年6月",
+        "aliases": [
+          "1912年6月"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "1936年",
+        "aliases": [
+          "1936年"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "1936年9月到1938年7月",
+        "aliases": [
+          "1936年9月到1938年7月"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "1945年到1948年",
+        "aliases": [
+          "1945年到1948年"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "1954年6月",
+        "aliases": [
+          "1954年6月"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "2009年9月",
+        "aliases": [
+          "2009年9月"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "2013年12月",
+        "aliases": [
+          "2013年12月"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "2015年2月",
+        "aliases": [
+          "2015年2月"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "2017年1月",
+        "aliases": [
+          "2017年1月"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间模式"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "第二次世界大战期间",
+        "aliases": [
+          "第二次世界大战期间"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "时间词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "荣誉": [
+      {
+        "canonical_entity": "OBE",
+        "aliases": [
+          "OBE"
+        ],
+        "count_estimate": 2,
+        "alias_count_sum": 2,
+        "sources": [
+          "荣誉词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "博士学位",
+        "aliases": [
+          "博士学位"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "荣誉词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "大英帝国勋章",
+        "aliases": [
+          "大英帝国勋章"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "荣誉词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "简·伊丽莎·宝洁奖学金",
+        "aliases": [
+          "简·伊丽莎·宝洁奖学金"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "荣誉词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "研究员",
+        "aliases": [
+          "研究员"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "荣誉词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "一等荣誉",
+        "aliases": [
+          "一等荣誉"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "荣誉词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      },
+      {
+        "canonical_entity": "FRS",
+        "aliases": [
+          "FRS"
+        ],
+        "count_estimate": 1,
+        "alias_count_sum": 1,
+        "sources": [
+          "荣誉词表"
+        ],
+        "disambiguation": [
+          "直接保留"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "dropped_entities": {
+    "人物": [
+      {
+        "original_entity": "任命为大英帝国勋",
+        "cleaned_entity": "任命为大英帝国勋",
+        "reason": "规则判定为噪声或不完整实体"
+      },
+      {
+        "original_entity": "学院攻读本科",
+        "cleaned_entity": "学院",
+        "reason": "规则判定为噪声或不完整实体"
+      },
+      {
+        "original_entity": "学院研究员",
+        "cleaned_entity": "学院",
+        "reason": "规则判定为噪声或不完整实体"
+      }
+    ],
+    "机构": [],
+    "地点": [],
+    "作品": [],
+    "概念": [],
+    "事件": [],
+    "时间": [],
+    "荣誉": []
+  }
+}

@@ -1,0 +1,969 @@
+{
+  "title": "图灵知识图谱原始文本实体抽取结果",
+  "input_file": "Turing.txt",
+  "output_time": "2026/4/14 20:48:43",
+  "categories": {
+    "人物": [
+      {
+        "entity": "图灵",
+        "count": 79,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "理查德",
+        "count": 2,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "维特根斯坦",
+        "count": 2,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "Ethel Sara Stoney",
+        "count": 2,
+        "sources": [
+          "英文人名模式",
+          "人物上下文",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "阿尔伯特·爱因斯坦",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "阿兰·图灵",
+        "count": 1,
+        "sources": [
+          "中文别名",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "阿隆佐·邱奇",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "艾伦·麦席森·图灵",
+        "count": 1,
+        "sources": [
+          "首句主体",
+          "中译外文人名",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "彼得希尔顿",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "第利温·诺克斯",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "第利温·诺克斯一起专注于",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "冯·诺依曼",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "戈登·布朗",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "国银牌得主托马斯·理查兹",
+        "count": 1,
+        "sources": [
+          "中译外文人名"
+        ]
+      },
+      {
+        "entity": "哈里·欣斯利",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "哈里·欣斯利估计",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "和战时密码破译员",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "简·伊丽莎·宝洁",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "麦克纳利",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "密码破译员第利温·诺克斯一起专注于",
+        "count": 1,
+        "sources": [
+          "中译外文人名"
+        ]
+      },
+      {
+        "entity": "乔治六世",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "任命为大英帝国勋",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "汤姆·理查兹",
+        "count": 1,
+        "sources": [
+          "人物上下文",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "托马斯·理查兹",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "学院攻读本科",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "学院研究员",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "亚尔·瓦尔德马·林德伯格",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "伊丽莎白二世",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "伊丽莎白二世赦免",
+        "count": 1,
+        "sources": [
+          "人物上下文"
+        ]
+      },
+      {
+        "entity": "又译阿兰·图灵",
+        "count": 1,
+        "sources": [
+          "中译外文人名"
+        ]
+      },
+      {
+        "entity": "运会银牌得主汤姆·理查兹",
+        "count": 1,
+        "sources": [
+          "中译外文人名"
+        ]
+      },
+      {
+        "entity": "战争历史学家哈里·欣斯利估计",
+        "count": 1,
+        "sources": [
+          "中译外文人名"
+        ]
+      },
+      {
+        "entity": "朱利斯·麦席森·图灵",
+        "count": 1,
+        "sources": [
+          "人物上下文",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "Alan Mathison Turing",
+        "count": 1,
+        "sources": [
+          "英文别名",
+          "英文人名模式",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "Asa Briggs",
+        "count": 1,
+        "sources": [
+          "英文人名模式",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "I·J·古德",
+        "count": 1,
+        "sources": [
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "Julius Mathison Turing",
+        "count": 1,
+        "sources": [
+          "英文人名模式"
+        ]
+      },
+      {
+        "entity": "Ronald Lewin",
+        "count": 1,
+        "sources": [
+          "英文人名模式",
+          "人物上下文",
+          "人物词表"
+        ]
+      },
+      {
+        "entity": "Thomas Richards",
+        "count": 1,
+        "sources": [
+          "英文人名模式",
+          "人物词表"
+        ]
+      }
+    ],
+    "机构": [
+      {
+        "entity": "布莱切利庄园",
+        "count": 4,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "GC&CS",
+        "count": 3,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "GCHQ",
+        "count": 3,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "剑桥大学国王学院",
+        "count": 2,
+        "sources": [
+          "机构后缀模式",
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "波兰密码局",
+        "count": 1,
+        "sources": [
+          "机构后缀模式"
+        ]
+      },
+      {
+        "entity": "布莱奇利庄园",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "国家物理实验室",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "获普林斯顿数学系",
+        "count": 1,
+        "sources": [
+          "机构后缀模式"
+        ]
+      },
+      {
+        "entity": "洛斯阿拉莫斯国家实验室",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "曼彻斯特大学计算机实验室",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "普林斯顿大学",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "随后马尔伯勒学院",
+        "count": 1,
+        "sources": [
+          "机构后缀模式"
+        ]
+      },
+      {
+        "entity": "他成为曼彻斯特大学计算机实验室",
+        "count": 1,
+        "sources": [
+          "机构后缀模式"
+        ]
+      },
+      {
+        "entity": "他是沃尔顿竞技俱乐部",
+        "count": 1,
+        "sources": [
+          "机构后缀模式"
+        ]
+      },
+      {
+        "entity": "图灵考入剑桥大学国王学院",
+        "count": 1,
+        "sources": [
+          "机构后缀模式"
+        ]
+      },
+      {
+        "entity": "沃尔顿竞技俱乐部",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "英国国家档案馆",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "英国皇家海军",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "英国军情六处",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "英国密码破译组织政府密码和密码学校",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "英国上议院",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "英国首相府邸",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "英国司法部",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      },
+      {
+        "entity": "Hut 8",
+        "count": 1,
+        "sources": [
+          "机构词表"
+        ]
+      }
+    ],
+    "地点": [
+      {
+        "entity": "英国",
+        "count": 20,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "印度",
+        "count": 4,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "剑桥",
+        "count": 3,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "伦敦",
+        "count": 2,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "普林斯顿",
+        "count": 2,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "英伦",
+        "count": 2,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "英属印度",
+        "count": 2,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "大西洋",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "东柴郡威姆斯洛",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "多塞特郡",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "法国",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "华沙",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "吉尔福德",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "南安普顿",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "帕丁顿",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      },
+      {
+        "entity": "新墨西哥州洛斯阿拉莫斯",
+        "count": 1,
+        "sources": [
+          "地点词表"
+        ]
+      }
+    ],
+    "作品": [
+      {
+        "entity": "计算机器和智能",
+        "count": 1,
+        "sources": [
+          "书名号作品"
+        ]
+      },
+      {
+        "entity": "解码纳粹秘密",
+        "count": 1,
+        "sources": [
+          "书名号作品"
+        ]
+      },
+      {
+        "entity": "论可计算数及其在判定问题上的应用",
+        "count": 1,
+        "sources": [
+          "书名号作品"
+        ]
+      },
+      {
+        "entity": "形态发生的化学基础",
+        "count": 1,
+        "sources": [
+          "书名号作品"
+        ]
+      },
+      {
+        "entity": "Nova PBS纪录片《解码纳粹秘密》",
+        "count": 1,
+        "sources": [
+          "作品词表"
+        ]
+      }
+    ],
+    "概念": [
+      {
+        "entity": "图灵机",
+        "count": 8,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "恩尼格玛密码机",
+        "count": 6,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "图灵测试",
+        "count": 4,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "人工智能",
+        "count": 3,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "计算机科学",
+        "count": 2,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "判定问题",
+        "count": 2,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "炸弹",
+        "count": 2,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "反应-扩散公式",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "斐波那契叶序列",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "曼彻斯特一号",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "停机问题",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "相对计算",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "形态发生",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "序数逻辑",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "预言机",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "中心极限定理",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "自动计算引擎",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "ACE",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "Bombe",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      },
+      {
+        "entity": "λ演算",
+        "count": 1,
+        "sources": [
+          "概念词表"
+        ]
+      }
+    ],
+    "事件": [
+      {
+        "entity": "二次世界大战",
+        "count": 3,
+        "sources": [
+          "事件后缀模式",
+          "事件词表"
+        ]
+      },
+      {
+        "entity": "第二次世界大战",
+        "count": 2,
+        "sources": [
+          "事件词表"
+        ]
+      },
+      {
+        "entity": "艾伦·图灵法案",
+        "count": 1,
+        "sources": [
+          "事件后缀模式"
+        ]
+      },
+      {
+        "entity": "奥林匹克运动会",
+        "count": 1,
+        "sources": [
+          "事件词表"
+        ]
+      },
+      {
+        "entity": "大西洋战役",
+        "count": 1,
+        "sources": [
+          "事件词表"
+        ]
+      },
+      {
+        "entity": "图灵法案",
+        "count": 1,
+        "sources": [
+          "事件词表"
+        ]
+      },
+      {
+        "entity": "有2万多人签名请愿",
+        "count": 1,
+        "sources": [
+          "事件后缀模式"
+        ]
+      },
+      {
+        "entity": "越野赛跑",
+        "count": 1,
+        "sources": [
+          "事件词表"
+        ]
+      }
+    ],
+    "时间": [
+      {
+        "entity": "1938年",
+        "count": 3,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "1939年",
+        "count": 3,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "2012年",
+        "count": 3,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "二次世界大战期间",
+        "count": 2,
+        "sources": [
+          "时间词表"
+        ]
+      },
+      {
+        "entity": "1912年6月",
+        "count": 1,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "1936年",
+        "count": 1,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "1936年9月到1938年7月",
+        "count": 1,
+        "sources": [
+          "时间词表"
+        ]
+      },
+      {
+        "entity": "1945年到1948年",
+        "count": 1,
+        "sources": [
+          "时间词表"
+        ]
+      },
+      {
+        "entity": "1954年6月",
+        "count": 1,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "2009年9月",
+        "count": 1,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "2013年12月",
+        "count": 1,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "2015年2月",
+        "count": 1,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "2017年1月",
+        "count": 1,
+        "sources": [
+          "时间模式"
+        ]
+      },
+      {
+        "entity": "第二次世界大战期间",
+        "count": 1,
+        "sources": [
+          "时间词表"
+        ]
+      }
+    ],
+    "荣誉": [
+      {
+        "entity": "OBE",
+        "count": 2,
+        "sources": [
+          "荣誉词表"
+        ]
+      },
+      {
+        "entity": "博士学位",
+        "count": 1,
+        "sources": [
+          "荣誉词表"
+        ]
+      },
+      {
+        "entity": "大英帝国勋章",
+        "count": 1,
+        "sources": [
+          "荣誉词表"
+        ]
+      },
+      {
+        "entity": "简·伊丽莎·宝洁奖学金",
+        "count": 1,
+        "sources": [
+          "荣誉词表"
+        ]
+      },
+      {
+        "entity": "研究员",
+        "count": 1,
+        "sources": [
+          "荣誉词表"
+        ]
+      },
+      {
+        "entity": "一等荣誉",
+        "count": 1,
+        "sources": [
+          "荣誉词表"
+        ]
+      },
+      {
+        "entity": "FRS",
+        "count": 1,
+        "sources": [
+          "荣誉词表"
+        ]
+      }
+    ]
+  }
+}
