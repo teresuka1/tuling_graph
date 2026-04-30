@@ -1,0 +1,152 @@
+{
+  "inputPath": "..\\Turing.txt",
+  "outputPath": "Turing_entities.json",
+  "title": "图灵知识图谱原始文本实体抽取结果",
+  "orderedCategories": ["人物", "机构", "地点", "作品", "概念", "事件", "时间", "荣誉"],
+  "stopEntities": ["英语", "期间", "主条目", "内容", "事实", "委员会", "工作", "研究", "方法", "程序", "概念", "论文", "文章", "机器", "结果", "证明", "设置"],
+  "noisePatterns": ["^的", "^在", "^并", "^从而", "^后来", "^由于", "^因为", "^要求", "^正式向", "^追授", "^年", "进行", "公开道歉", "解释说", "回答说", "就是这样一个", "选集", "法案生效"],
+  "rules": [
+    {
+      "type": "first_line_leading",
+      "category": "人物",
+      "sourceLabel": "首句主体",
+      "pattern": "^([^，,（(]+)"
+    },
+    {
+      "type": "first_line_regex",
+      "category": "人物",
+      "sourceLabel": "英文别名",
+      "pattern": "英语[:：]\\s*([A-Za-z][A-Za-z .'-]+)"
+    },
+    {
+      "type": "first_line_split_regex",
+      "category": "人物",
+      "sourceLabel": "中文别名",
+      "pattern": "又译([^，。,（）]+)",
+      "splitPattern": "或者|或|、|和"
+    },
+    {
+      "type": "global_regex",
+      "category": "人物",
+      "sourceLabel": "英文人名模式",
+      "pattern": "\\b([A-Z][A-Za-z'.-]+(?:\\s+[A-Z][A-Za-z'.-]+){1,3})\\b",
+      "filter": "englishPerson"
+    },
+    {
+      "type": "global_regex",
+      "category": "人物",
+      "sourceLabel": "英文缩写人名",
+      "pattern": "\\b([A-Z]\\.[A-Z]\\.[A-Za-z一-龥]{1,8})\\b"
+    },
+    {
+      "type": "sentence_regex",
+      "category": "人物",
+      "sourceLabel": "人物上下文",
+      "pattern": "(?:父亲|母亲|历史学家|破译员|得主|首相|国王|女王)([A-Za-z][A-Za-z .'-]{1,40}|[一-龥]{2,8}(?:·[一-龥]{1,8}){0,2})"
+    },
+    {
+      "type": "sentence_regex",
+      "category": "人物",
+      "sourceLabel": "中译外文人名",
+      "pattern": "([一-龥]{2,8}(?:·[一-龥]{1,8}){1,3})",
+      "filter": "maxLen18"
+    },
+    {
+      "type": "sentence_regex",
+      "category": "人物",
+      "sourceLabel": "中文人物上下文",
+      "pattern": "([一-龥]{2,6})(?:曾说过|撰文|回答说)"
+    },
+    {
+      "type": "sentence_regex",
+      "category": "机构",
+      "sourceLabel": "机构后缀模式",
+      "pattern": "([A-Za-z一-龥&·'\\- ]{2,30}(?:大学|学院|实验室|学校|密码局|档案馆|数学系|俱乐部|代表队|国家实验室))",
+      "filter": "stripOrgLeading"
+    },
+    {
+      "type": "global_regex",
+      "category": "作品",
+      "sourceLabel": "书名号作品",
+      "pattern": "《([^》]+)》"
+    },
+    {
+      "type": "global_regex",
+      "category": "作品",
+      "sourceLabel": "英文题名",
+      "pattern": "题为\\s*([A-Za-z][A-Za-z ]{3,80})"
+    },
+    {
+      "type": "sentence_regex",
+      "category": "事件",
+      "sourceLabel": "事件后缀模式",
+      "pattern": "([一-龥A-Za-z0-9·]{2,20}(?:战役|大战|会议|讲座|大罢工|赛跑|试训|请愿|法案))"
+    },
+    {
+      "type": "global_regex",
+      "category": "时间",
+      "sourceLabel": "时间模式",
+      "pattern": "\\b(\\d{4}年(?:\\d{1,2}月(?:\\d{1,2}日)?)?)\\b"
+    },
+    {
+      "type": "list",
+      "category": "人物",
+      "sourceLabel": "人物词表",
+      "values": ["艾伦·麦席森·图灵", "Alan Mathison Turing", "阿兰·图灵", "图灵", "朱利斯·麦席森·图灵", "Ethel Sara Stoney", "阿尔伯特·爱因斯坦", "亚尔·瓦尔德马·林德伯格", "阿隆佐·邱奇", "简·伊丽莎·宝洁", "冯·诺依曼", "维特根斯坦", "Asa Briggs", "第利温·诺克斯", "Ronald Lewin", "I·J·古德", "彼得希尔顿", "汤姆·理查兹", "Thomas Richards", "哈里·欣斯利", "乔治六世", "戈登·布朗", "麦克纳利", "伊丽莎白二世", "理查德"]
+    },
+    {
+      "type": "list",
+      "category": "机构",
+      "sourceLabel": "机构词表",
+      "values": ["Hut 8", "剑桥大学国王学院", "普林斯顿大学", "布莱切利庄园", "布莱奇利庄园", "英国密码破译组织政府密码和密码学校", "GC&CS", "GCHQ", "英国皇家海军", "英国军情六处", "国家物理实验室", "曼彻斯特大学计算机实验室", "洛斯阿拉莫斯国家实验室", "沃尔顿竞技俱乐部", "英国首相府邸", "英国司法部", "英国上议院", "英国国家档案馆"]
+    },
+    {
+      "type": "list",
+      "category": "地点",
+      "sourceLabel": "地点词表",
+      "values": ["英国", "伦敦", "帕丁顿", "英属印度", "英伦", "印度", "吉尔福德", "多塞特郡", "南安普顿", "剑桥", "普林斯顿", "华沙", "大西洋", "东柴郡威姆斯洛", "新墨西哥州洛斯阿拉莫斯", "法国"]
+    },
+    {
+      "type": "list",
+      "category": "作品",
+      "sourceLabel": "作品词表",
+      "values": ["On Computable Numbers, with an Application to the Entscheidungsproblem", "The Applications of Probability to Cryptography", "Paper on Statistics of Repetitions", "The Chemical Basis of Morphogenesis", "Nova PBS纪录片《解码纳粹秘密》", "艾伦·图灵选集"]
+    },
+    {
+      "type": "list",
+      "category": "概念",
+      "sourceLabel": "概念词表",
+      "values": ["图灵测试", "图灵机", "恩尼格玛密码机", "停机问题", "中心极限定理", "判定问题", "序数逻辑", "相对计算", "预言机", "λ演算", "自动计算引擎", "ACE", "曼彻斯特一号", "人工智能", "计算机科学", "形态发生", "斐波那契叶序列", "反应-扩散公式", "Bombe", "炸弹"]
+    },
+    {
+      "type": "list",
+      "category": "事件",
+      "sourceLabel": "事件词表",
+      "values": ["第二次世界大战", "二次世界大战", "大西洋战役", "奥林匹克运动会", "图灵法案", "越野赛跑"]
+    },
+    {
+      "type": "list",
+      "category": "时间",
+      "sourceLabel": "时间词表",
+      "values": ["二次世界大战期间", "第二次世界大战期间", "1945年到1948年", "1936年9月到1938年7月"]
+    },
+    {
+      "type": "list",
+      "category": "荣誉",
+      "sourceLabel": "荣誉词表",
+      "values": ["OBE", "FRS", "大英帝国勋章", "简·伊丽莎·宝洁奖学金", "博士学位", "一等荣誉", "研究员"]
+    }
+  ],
+  "prune": {
+    "invalidByCategory": {
+      "人物": ["美国数学世纪的回忆", "Can Machines Think", "Foundations of mathematics", "死后", "要求英国政府", "Jane Eliza Procter Visiting", "Nova PBS", "St. Michaels", "The Applications", "The Chemical Basis", "艾伦·图灵法案", "艾伦·图灵选集"],
+      "机构": ["英国", "法国", "要求英国政府", "并因为其性倾向而遭到当时的英国政府", "并在英国军情六处", "从而使得军情六处", "但是军情六处", "负责德国海军", "图灵在学校", "政府密码和密码学校", "Michaels的日间学校"],
+      "地点": ["英伦与朋友同住"],
+      "作品": ["英语", "主条目", "官方保密法", "每日电讯报", "自然"],
+      "事件": ["在第二次世界大战", "使盟军能够在包括大西洋战役", "不幸遇上了大罢工"]
+    },
+    "maxLength": 24,
+    "containsPattern": "的|了|在|并|使|月才被发布给",
+    "containsPatternExcludeCategories": ["作品"]
+  }
+}

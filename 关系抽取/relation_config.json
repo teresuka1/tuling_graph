@@ -1,0 +1,196 @@
+{
+  "textPath": "..\\Turing.txt",
+  "entityPath": "..\\实体消歧\\Turing_entities_disambiguated.json",
+  "outputPath": "Turing_relations.json",
+  "title": "图灵知识图谱关系抽取结果",
+  "orderedCategories": ["人物", "机构", "地点", "作品", "概念", "事件", "时间", "荣誉"],
+  "rules": [
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "父亲是",
+      "keyword": "父亲",
+      "objectCategory": "人物",
+      "excludeSubject": true,
+      "ruleName": "亲属关系-父亲"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "母亲是",
+      "keyword": "母亲",
+      "objectCategory": "人物",
+      "excludeSubject": true,
+      "ruleName": "亲属关系-母亲"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "就读于",
+      "keyword": "考入",
+      "objectCategory": "机构",
+      "ruleName": "教育经历-考入"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "任职于",
+      "keyword": "研究员",
+      "objectCategory": "机构",
+      "ruleName": "任职关系-研究员"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "任职于",
+      "keyword": "在",
+      "objectCategory": "机构",
+      "sentencePattern": "(负责|兼职工作|副主任|招聘|监督下从事|工作期间)",
+      "ruleName": "任职关系-机构上下文"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "研究",
+      "keyword": "负责",
+      "objectCategory": "概念",
+      "ruleName": "研究关系-负责"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "提出",
+      "keyword": "提出",
+      "objectCategory": "概念",
+      "ruleName": "概念提出"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "创作",
+      "keyword": "写了",
+      "objectCategory": "作品",
+      "ruleName": "作品创作-写了"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "发表",
+      "keyword": "发表了一篇论文",
+      "objectCategory": "作品",
+      "ruleName": "作品发表-论文"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "获得",
+      "keyword": "获得了",
+      "objectCategory": "荣誉",
+      "ruleName": "荣誉获得"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "获得",
+      "keyword": "被评选为",
+      "objectCategory": "荣誉",
+      "ruleName": "荣誉获得-被评选"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "获得",
+      "keyword": "获",
+      "objectCategory": "荣誉",
+      "sentencePattern": "(博士学位|勋章)",
+      "ruleName": "荣誉获得-获"
+    },
+    {
+      "type": "subject_to_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "被誉为",
+      "keyword": "被誉为",
+      "objectCategory": "概念",
+      "ruleName": "称号关系"
+    },
+    {
+      "type": "subject_to_first_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "任职于",
+      "keyword": "被选为",
+      "objectCategory": "机构",
+      "ruleName": "任职关系-被选为"
+    },
+    {
+      "type": "subject_to_first_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "出生地",
+      "keyword": "出生",
+      "objectCategory": "地点",
+      "objectNamePattern": "(英国|伦敦|帕丁顿)",
+      "ruleName": "出生地关系"
+    },
+    {
+      "type": "subject_to_first_category",
+      "subjectCanonical": "Ethel Sara Stoney",
+      "predicate": "怀孕地点",
+      "keyword": "怀了孕",
+      "objectCategory": "地点",
+      "ruleName": "地点关系-怀孕"
+    },
+    {
+      "type": "fixed_to_fixed",
+      "sentencePattern": "英国政府迫害",
+      "subjectLiteral": "英国政府",
+      "subjectType": "机构",
+      "predicate": "迫害",
+      "objectLiteral": "艾伦·麦席森·图灵",
+      "objectType": "人物",
+      "ruleName": "迫害关系"
+    },
+    {
+      "type": "matched_actor_to_fixed",
+      "sentencePattern": "赦免",
+      "actorCanonical": "伊丽莎白二世",
+      "predicate": "赦免",
+      "objectLiteral": "艾伦·麦席森·图灵",
+      "objectType": "人物",
+      "ruleName": "赦免关系"
+    },
+    {
+      "type": "matched_actor_to_fixed",
+      "sentencePattern": "公开道歉",
+      "actorCanonical": "戈登·布朗",
+      "predicate": "公开道歉对象",
+      "objectLiteral": "艾伦·麦席森·图灵",
+      "objectType": "人物",
+      "ruleName": "道歉关系"
+    },
+    {
+      "type": "anchor_people_relation",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "合作对象",
+      "anchorPhrase": "与图灵一起工作",
+      "objectCategory": "人物",
+      "ruleName": "合作关系-共同工作"
+    },
+    {
+      "type": "anchor_people_relation",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "合作对象",
+      "anchorPhrase": "图灵和",
+      "sentencePattern": "(开发|合作|专注于)",
+      "objectCategory": "人物",
+      "ruleName": "合作关系-并列主语"
+    },
+    {
+      "type": "subject_to_first_category",
+      "subjectCanonical": "艾伦·麦席森·图灵",
+      "predicate": "比赛胜过",
+      "keyword": "跑赢了",
+      "objectCategory": "人物",
+      "excludeSubject": true,
+      "ruleName": "竞赛关系"
+    }
+  ]
+}
